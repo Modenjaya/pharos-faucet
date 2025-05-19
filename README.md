@@ -29,8 +29,8 @@ pip install -r requirements.txt
 nano wallet.txt
 ```
 ## ✅ Usage
-Launch the Application ▶️
-Start the terminal UI by running:
+Launch
+Start 
 ```
 python3 bot.py
 ```
