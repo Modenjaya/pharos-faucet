@@ -277,8 +277,8 @@ def process_batch(recipient, batch_size=10):
             print(f"{Fore.RED}❌ Failed to claim faucet for {address}: {str(e)}{Style.RESET_ALL}")
             wallets[i] = None
 
-    print(f"{Fore.YELLOW}⏳ Waiting 5 seconds to ensure faucet confirmation...{Style.RESET_ALL}")
-    time.sleep(10)
+    print(f"{Fore.YELLOW}⏳ Waiting 15 seconds to ensure faucet confirmation...{Style.RESET_ALL}")
+    time.sleep(15)
 
     print(f"{Fore.CYAN}💸 Transferring to {recipient}...{Style.RESET_ALL}")
     progress_bar_animation("⏳ Initiating transfers...", 2)
